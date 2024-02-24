@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -16,7 +20,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -444,7 +448,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -494,7 +498,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -544,11 +548,126 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.attribution {
+.absolute{
+  position: absolute;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.flex{
+  display: flex;
+}
+
+.hidden{
+  display: none;
+}
+
+.h-4{
+  height: 1rem;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.w-5{
+  width: 1.25rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.rounded-bl-3xl{
+  border-bottom-left-radius: 1.5rem;
+}
+
+.bg-bg_gradient_light_red{
+  --tw-bg-opacity: 1;
+  background-color: hsl(353 100% 62% / var(--tw-bg-opacity));
+}
+
+.bg-bg_gradient_very_light_red{
+  --tw-bg-opacity: 1;
+  background-color: hsl(13 100% 72% / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-bl{
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-br{
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-hero-pattern-mobile{
+  background-image: url('image/bg-pattern-intro-mobile.svg');
+}
+
+.from-bg_gradient_light_red{
+  --tw-gradient-from: hsl(353, 100%, 62%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(353 100% 62% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-bg_gradient_very_light_red{
+  --tw-gradient-from: hsl(13, 100%, 72%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(13 100% 72% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-local{
+  background-attachment: local;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.fill-white{
+  fill: hsl(0, 0%, 100%);
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.opacity-10{
+  opacity: 0.1;
+}
+
+.opacity-0{
+  opacity: 0;
+}
+
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+
+
+} */
+
