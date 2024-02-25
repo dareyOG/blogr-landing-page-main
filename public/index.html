@@ -7,147 +7,58 @@
     <link rel="stylesheet" href="output.css" />
     <title>Frontend Mentor | [Blogr]</title>
   </head>
-  <body>
- 
-  
-    <div class="bg-hero-pattern-mobile bg-center" >
-      <nav
-        class="bg-gradient-to-br from-bg_gradient_very_light_red to bg-bg_gradient_light_red w-full border-bl-3 flex justify-between px-10 py-20"
-      >
-        <img src="images/logo.svg" alt="logo" />
-        <img src="images/icon-hamburger.svg" class="w-5 h-4" alt="menu" id="menu" />
-        <div class="bg-white hidden">
-          <ul>
-            <li>
-              Product
-              <ul>
-                <li>Overview</li>
-                <li>Pricing</li>
-                <li>Marketplace</li>
-                <li>Features</li>
-                <li>Integrations</li>
-              </ul>
-            </li>
-            <li>
-              Company
-              <ul>
-                <li>About</li>
-                <li>Team</li>
-                <li>Blog</li>
-                <li>Careers</li>
-              </ul>
-            </li>
-            <li>
-              Connect
-              <ul>
-                <li>Contact</li>
-                <li>Newsletter</li>
-                <li>LinkedIn</li>
-              </ul>
-            </li>
-          </ul>
-          <ul>
-            <li>Login</li>
-            <li>Sign Up</li>
-          </ul>
+  <body class="box-border font-ubuntu">
+    <header
+      class="relative font-overpass text-white h-[40rem] bg-gradient-to-b from-red-100 to-red-400 rounded-bl-[6rem] desktop:bg-gradient-to-br"
+    >
+      <div
+        class="absolute top-0 w-full h-full rounded-bl-[6rem] bg-[url('images/bg-pattern-intro-mobile.svg')] bg-no-repeat bg-[left_-20rem_top_-15rem] desktop:bg-[url('images/bg-pattern-intro-desktop.svg')] desktop:bg-[left_-25rem_top_-80rem]"
+      ></div>
+      <div class="relative z-10">
+        <nav class="flex justify-between pt-10 px-10 mb-40">
+          <img src="images/logo.svg" class="w-20 h-15" alt="logo" />
+          <div class="border-2 border-white mobile:hidden">
+            <ul>
+              <li>
+                <a href="#product"
+                  ><span>Product</span><img src="images/icon-arrow-light.svg" alt="product"
+                /></a>
+              </li>
+              <li>
+                <a href="#company"
+                  ><span>Company</span><img src="images/icon-arrow-light.svg" alt="company"
+                /></a>
+              </li>
+              <li>
+                <a href="#connect"
+                  ><span>Connect</span><img src="images/icon-arrow-light.svg" alt="connect"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <img
+            src="images/icon-hamburger.svg"
+            class="cursor-pointer w-5 h-5 desktop:hidden"
+            alt="menu"
+          />
+          <div class="mobile:hidden">
+            <a href="#login" class="btn-red border-none hover:underline hover:border-none">Login</a>
+            <a href="#signup" class="btn-white">Sign up</a>
+          </div>
+        </nav>
+        <div class="text-center leading-tight w-auto px-[1rem] desktop:px-[3rem]">
+          <h1 class="font-semibold text-[2.5rem] mb-5 desktop:text-[3.5rem]">
+            A modern publishing platform
+          </h1>
+          <p class="font-light text-[1.5rem] desktop:text-[1.2rem]">
+            Grow your audience and build your online brand
+          </p>
+          <div class="mt-[5rem]">
+            <a class="btn-white" href="#">Start for free</a>
+            <a class="btn-red" href="#">Learn more</a>
+          </div>
         </div>
-      </nav>
-      <header
-        class="bg-gradient-to-bl from-bg_gradient_light_red to bg-bg_gradient_very_light_red rounded-bl-3xl bg-"
-      >
-        <h1>A modern publishing platform</h1>
-        <div class="">Grow your audience and build your online brand</div>
-        <div class="">
-          <button>Start for Free</button>
-          <button>Learn More</button>
-        </div>
-      </header>
-    </div>
-    <main>
-      <div>
-        <h2>Designed for the future</h2>
-        <img src="images/illustration-editor-mobile.svg" alt="" />
       </div>
-      <div>
-        <h2>Introducing an extensible editor</h2>
-        <p>
-          Blogr features an exceedingly intuitive interface which lets you focus on one thing:
-          creating content. The editor supports management of multiple blogs and allows easy
-          manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins
-          and themes provide easy ways to add functionality or change the looks of a blog.
-        </p>
-      </div>
-      <div>
-        <h2>Robust content management</h2>
-        <p>
-          Flexible content management enables users to easily move through posts. Increase the
-          usability of your blog by adding customized categories, sections, format, or flow. With
-          this functionality, you’re in full control.
-        </p>
-      </div>
-      <img src="images/illustration-phones.svg" alt="" />
-      <img src="" alt="" />
-      <div>
-        <h1>State of the Art Infrastructure</h1>
-        <p>
-          With reliability and speed in mind, worldwide data centers provide the backbone for
-          ultra-fast connectivity. This ensures your site will load instantly, no matter where your
-          readers are, keeping your site competitive.
-        </p>
-      </div>
-      <img src="images/illustration-laptop-mobile.svg" alt="" />
-      <div class="">
-        <h2>Free, open, simple</h2>
-        <p>
-          Blogr is a free and open source application backed by a large community of helpful
-          developers. It supports features such as code syntax highlighting, RSS feeds, social media
-          integration, third-party commenting tools, and works seamlessly with Google Analytics. The
-          architecture is clean and is relatively easy to learn.
-        </p>
-        <h2>Powerful tooling</h2>
-        <p>
-          Batteries included. We built a simple and straightforward CLI tool that makes
-          customization and deployment a breeze, but capable of producing even the most complicated
-          sites.
-        </p>
-      </div>
-    </main>
-    <footer>
-      <div class="">
-        <img src="images/logo.svg" alt="logo" />
-      </div>
-      <div class="">
-        <a href="#product">Product</a>
-        <ul>
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#marketplace">Marketplace</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#integrations">Integrations</a></li>
-        </ul>
-      </div>
-      <div class="">
-        <a href="#company">Company</a>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#careers">Careers</a></li>
-        </ul>
-      </div>
-      <div class=""></div>
-      <a href="#connect"></a>
-      <ul>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#newsletter">Newsletter</a></li>
-        <li><a href="#linkedin">LinkedIn</a></li>
-      </ul>
-    </footer>
-
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Oludire Damilare</a>.
-    </div> -->
+    </header>
   </body>
 </html>

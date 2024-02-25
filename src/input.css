@@ -1,17 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100..900&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
+.btn-white {
+  @apply border bg-white text-red-200 px-5 py-3 rounded-full 
+    hover:bg-red-200 hover:text-white
+  font-semibold mx-5 tracking-wide transition-all ease-in duration-300 hover:border-none;
 }
-.attribution a {
+
+.btn-red {
+  @apply border border-white text-white hover:bg-white hover:text-red-200 px-5 py-3 rounded-full font-semibold mx-5 tracking-wide transition-all ease-in duration-300 hover:border-none;
+}
+
+.attribution {
+  @apply text-[11px] text-center;
+}
+
+/* .attribution a {
   color: hsl(228, 45%, 44%);
-
-
 } */
-

@@ -10,25 +10,31 @@ module.exports = {
       overpass: ["Overpass"],
       ubuntu: ["Ubuntu"],
     },
-    colors: {
-      CTA_text: "hsl(356, 100%, 66%)",
-      CTA_hover_bg: "hsl(355, 100%, 74%)",
-      headings: "hsl(208, 49%, 24%)",
-      white: "hsl(0, 0%, 100%)",
-      footer_text: "hsl(240, 2%, 79%)",
-      body_copy: "hsl(207, 13%, 34%)",
-      footer_bg: "hsl(240, 10%, 16%)",
-      bg_gradient_very_light_red: "hsl(13, 100%, 72%)",
-      bg_gradient_light_red: "hsl(353, 100%, 62%)",
-      bg_grad_gray_blue: "hsl(237, 17%, 21%)",
-      bg_grad_desat_blue: "hsl(237, 23%, 32%)",
+    fontWeight: {
+      light: "300",
+      base: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
     },
-    extend: {
-      backgroundImage: {
-        "hero-pattern-mobile": "url('image/bg-pattern-intro-mobile.svg')",
-        "hero-pattern-desktop": "url('image/bg-pattern-intro-desktop.svg')",
+    colors: {
+      white: "hsl(0, 0%, 100%)",
+      red: {
+        100: "hsl(13, 100%, 72%)",
+        200: "hsl(355, 100%, 74%)",
+        300: "hsl(356, 100%, 66%)",
+        400: "hsl(353, 100%, 62%)",
+      },
+      blue: {
+        100: " hsl(240, 2%, 79%)",
+        200: "hsl(207, 13%, 34%)",
+        300: "hsl(208, 49%, 24%)",
+        400: "hsl(237, 23%, 32%)",
+        500: "hsl(237, 17%, 21%)",
+        600: " hsl(240, 10%, 16%)",
       },
     },
+    extend: {},
   },
   plugins: [],
 };
