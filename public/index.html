@@ -15,42 +15,90 @@
         class="absolute top-0 w-full h-full rounded-bl-[6rem] bg-[url('images/bg-pattern-intro-mobile.svg')] bg-no-repeat bg-[left_-20rem_top_-15rem] desktop:bg-[url('images/bg-pattern-intro-desktop.svg')] desktop:bg-[left_-25rem_top_-80rem]"
       ></div>
       <div class="relative z-10">
-        <nav class="flex justify-between pt-10 px-10 mb-40">
-          <img src="images/logo.svg" class="w-20 h-15" alt="logo" />
-          <div class="border-2 border-white mobile:hidden">
-            <ul>
-              <li>
-                <a href="#product"
-                  ><span>Product</span><img src="images/icon-arrow-light.svg" alt="product"
-                /></a>
+        <nav class="flex justify-between mx-5 pt-10 mb-36 desktop:justify-around desktop:mx-3">
+          <div class="flex">
+            <img src="images/logo.svg" class="w-20 h-15" alt="logo" />
+            <ul class="relative ml-24 justify-between items-center space-x-10 hidden desktop:flex">
+              <li class="">
+                <a href="#product" class="flex items-center gap-4 hover:underline hover:font-bold"
+                  >Product<img src="images/icon-arrow-light.svg" alt="product" />
+                  <ul
+                    class="absolute mt-3 bg-white text-blue-400 w-40 h-auto px-8 py-6 rounded-md left-[-30px]"
+                  >
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#overview">Overview</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#pricing">Pricing</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#marketplace">Marketplace</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#features">Features</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#integrations">Integrations</a>
+                    </li>
+                  </ul>
+                </a>
               </li>
-              <li>
-                <a href="#company"
-                  ><span>Company</span><img src="images/icon-arrow-light.svg" alt="company"
-                /></a>
+              <li class="">
+                <a href="#company" class="flex items-center gap-4 hover:underline hover:font-bold"
+                  >Company<img src="images/icon-arrow-light.svg" alt="company" />
+                  <ul
+                    class="absolute mt-3 bg-white text-blue-400 w-[180px] h-auto px-8 py-6 rounded-md left-[80px]"
+                  >
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#about">About</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#team">Team</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#blog">Blog</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#careers">Careers</a>
+                    </li>
+                  </ul></a
+                >
               </li>
-              <li>
-                <a href="#connect"
-                  ><span>Connect</span><img src="images/icon-arrow-light.svg" alt="connect"
-                /></a>
+              <li class="">
+                <a href="#connect" class="flex items-center gap-4 hover:underline hover:font-bold"
+                  >Connect<img src="images/icon-arrow-light.svg" alt="connect" />
+                  <ul
+                    class="absolute mt-3 bg-white text-blue-400 w-[180px] h-auto px-8 py-6 rounded-md left-[230px]"
+                  >
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#contact">Contact</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#newsletter">Newsletter</a>
+                    </li>
+                    <li class="py-2 font-medium hover:text-blue-300 hover:font-semibold">
+                      <a href="#linkedin">LinkedIn</a>
+                    </li>
+                  </ul></a
+                >
               </li>
             </ul>
           </div>
           <img
             src="images/icon-hamburger.svg"
-            class="cursor-pointer w-5 h-5 desktop:hidden"
+            class="desktop:hidden cursor-pointer w-7 h-5"
             alt="menu"
           />
-          <div class="mobile:hidden">
-            <a href="#login" class="btn-red border-none hover:underline hover:border-none">Login</a>
+          <div class="hidden desktop:block">
+            <a href="#login" class="desktop:hover:underline">Login</a>
             <a href="#signup" class="btn-white">Sign up</a>
           </div>
         </nav>
         <div class="text-center leading-tight w-auto px-[1rem] desktop:px-[3rem]">
-          <h1 class="font-semibold text-[2.5rem] mb-5 desktop:text-[3.5rem]">
+          <h1 class="font-semibold text-[2.5rem] mb-5 desktop:text-[4.6rem]">
             A modern publishing platform
           </h1>
-          <p class="font-light text-[1.5rem] desktop:text-[1.2rem]">
+          <p class="font-light text-[1.5rem] desktop:text-[1.3rem]">
             Grow your audience and build your online brand
           </p>
           <div class="mt-[5rem]">

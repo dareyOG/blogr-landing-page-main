@@ -556,6 +556,18 @@ video {
   position: relative;
 }
 
+.left-\[-30px\]{
+  left: -30px;
+}
+
+.left-\[230px\]{
+  left: 230px;
+}
+
+.left-\[80px\]{
+  left: 80px;
+}
+
 .top-0{
   top: 0px;
 }
@@ -564,16 +576,49 @@ video {
   z-index: 10;
 }
 
-.mb-40{
-  margin-bottom: 10rem;
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mb-36{
+  margin-bottom: 9rem;
 }
 
 .mb-5{
   margin-bottom: 1.25rem;
 }
 
+.ml-24{
+  margin-left: 6rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .mt-\[5rem\]{
   margin-top: 5rem;
+}
+
+.ml-1{
+  margin-left: 0.25rem;
+}
+
+.ml-20{
+  margin-left: 5rem;
+}
+
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.mr-4{
+  margin-right: 1rem;
+}
+
+.mr-40{
+  margin-right: 10rem;
 }
 
 .box-border{
@@ -584,12 +629,20 @@ video {
   display: flex;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-5{
   height: 1.25rem;
 }
 
 .h-\[40rem\]{
   height: 40rem;
+}
+
+.h-auto{
+  height: auto;
 }
 
 .h-full{
@@ -600,8 +653,16 @@ video {
   width: 5rem;
 }
 
-.w-5{
-  width: 1.25rem;
+.w-40{
+  width: 10rem;
+}
+
+.w-7{
+  width: 1.75rem;
+}
+
+.w-\[180px\]{
+  width: 180px;
 }
 
 .w-auto{
@@ -616,29 +677,43 @@ video {
   cursor: pointer;
 }
 
+.items-center{
+  align-items: center;
+}
+
+.justify-normal{
+  justify-content: normal;
+}
+
+.justify-start{
+  justify-content: flex-start;
+}
+
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
 }
 
 .rounded-bl-\[6rem\]{
   border-bottom-left-radius: 6rem;
 }
 
-.border-2{
-  border-width: 2px;
-}
-
-.border{
-  border-width: 1px;
-}
-
-.border-none{
-  border-style: none;
-}
-
-.border-white{
-  --tw-border-opacity: 1;
-  border-color: hsl(0 0% 100% / var(--tw-border-opacity));
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'images\/bg-pattern-intro-mobile\.svg\'\)\]{
@@ -667,14 +742,24 @@ video {
   background-repeat: no-repeat;
 }
 
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .px-\[1rem\]{
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pt-10{
@@ -705,12 +790,21 @@ video {
   font-weight: 300;
 }
 
+.font-medium{
+  font-weight: 500;
+}
+
 .font-semibold{
   font-weight: 600;
 }
 
 .leading-tight{
   line-height: 1.25;
+}
+
+.text-blue-400{
+  --tw-text-opacity: 1;
+  color: hsl(237 23% 32% / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -785,41 +879,102 @@ video {
   color: hsl(228, 45%, 44%);
 } */
 
-.hover\:rounded-none:hover{
-  border-radius: 0px;
+.hover\:font-bold:hover{
+  font-weight: 700;
 }
 
-.hover\:border:hover{
-  border-width: 1px;
+.hover\:font-semibold:hover{
+  font-weight: 600;
 }
 
-.hover\:border-none:hover{
-  border-style: none;
-}
-
-.hover\:bg-red-200:hover{
-  --tw-bg-opacity: 1;
-  background-color: hsl(355 100% 74% / var(--tw-bg-opacity));
-}
-
-.hover\:text-white:hover{
+.hover\:text-blue-300:hover{
   --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
+  color: hsl(208 49% 24% / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{
   text-decoration-line: underline;
 }
 
-@media (min-width: 375px){
-  .mobile\:hidden{
-    display: none;
-  }
-}
-
 @media (min-width: 1440px){
+  .desktop\:mx-40{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .desktop\:mx-20{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .desktop\:mx-1{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  .desktop\:mx-5{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .desktop\:mx-2{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .desktop\:mx-10{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .desktop\:mx-14{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  .desktop\:mx-16{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .desktop\:mx-24{
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .desktop\:mx-28{
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .desktop\:mx-3{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
+  .desktop\:mx-36{
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+
+  .desktop\:block{
+    display: block;
+  }
+
+  .desktop\:flex{
+    display: flex;
+  }
+
   .desktop\:hidden{
     display: none;
+  }
+
+  .desktop\:justify-around{
+    justify-content: space-around;
+  }
+
+  .desktop\:justify-evenly{
+    justify-content: space-evenly;
   }
 
   .desktop\:bg-\[url\(\'images\/bg-pattern-intro-desktop\.svg\'\)\]{
@@ -839,11 +994,79 @@ video {
     padding-right: 3rem;
   }
 
-  .desktop\:text-\[1\.2rem\]{
-    font-size: 1.2rem;
+  .desktop\:text-\[1\.3rem\]{
+    font-size: 1.3rem;
   }
 
-  .desktop\:text-\[3\.5rem\]{
-    font-size: 3.5rem;
+  .desktop\:text-\[4\.5rem\]{
+    font-size: 4.5rem;
+  }
+
+  .desktop\:text-\[5rem\]{
+    font-size: 5rem;
+  }
+
+  .desktop\:text-\[6rem\]{
+    font-size: 6rem;
+  }
+
+  .desktop\:text-\[5\.5rem\]{
+    font-size: 5.5rem;
+  }
+
+  .desktop\:text-\[4rem\]{
+    font-size: 4rem;
+  }
+
+  .desktop\:text-\[4\.2rem\]{
+    font-size: 4.2rem;
+  }
+
+  .desktop\:text-\[4\.3rem\]{
+    font-size: 4.3rem;
+  }
+
+  .desktop\:text-\[3\.3rem\]{
+    font-size: 3.3rem;
+  }
+
+  .desktop\:text-\[3\.9rem\]{
+    font-size: 3.9rem;
+  }
+
+  .desktop\:text-\[4\.7rem\]{
+    font-size: 4.7rem;
+  }
+
+  .desktop\:text-\[4\.6rem\]{
+    font-size: 4.6rem;
+  }
+
+  .desktop\:tracking-wide{
+    letter-spacing: 0.025em;
+  }
+
+  .desktop\:tracking-wider{
+    letter-spacing: 0.05em;
+  }
+
+  .desktop\:tracking-normal{
+    letter-spacing: 0em;
+  }
+
+  .desktop\:tracking-tight{
+    letter-spacing: -0.025em;
+  }
+
+  .desktop\:text-\[rem\]{
+    color: rem;
+  }
+
+  .desktop\:text-\[4\.rem\]{
+    color: 4.rem;
+  }
+
+  .desktop\:hover\:underline:hover{
+    text-decoration-line: underline;
   }
 }
