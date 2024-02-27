@@ -12,7 +12,7 @@ module.exports = {
     },
     fontWeight: {
       light: "300",
-      base: "400",
+      normal: "400",
       medium: "500",
       semibold: "600",
       bold: "700",
