@@ -15,13 +15,13 @@
 }
 
 .btn-white {
-  @apply border bg-white text-red-200 px-5 py-3 rounded-full 
+  @apply border bg-white font-semibold text-red-200 px-5 py-3 rounded-full 
     hover:bg-red-200 hover:text-white
-  font-semibold mx-5 tracking-wide transition-all ease-in duration-300 hover:border-none;
+   mx-5 tracking-wide transition-all ease-in duration-300 hover:border-none;
 }
 
 .btn-red {
-  @apply border border-white text-white hover:bg-white hover:text-red-200 px-5 py-3 rounded-full font-semibold mx-5 tracking-wide transition-all ease-in duration-300 hover:border-none;
+  @apply border border-white font-semibold text-white hover:bg-white hover:text-red-200 px-5 py-3 rounded-full  mx-5 tracking-wide transition-all ease-in duration-300 hover:border-none;
 }
 
 .attribution {

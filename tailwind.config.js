@@ -5,7 +5,6 @@ module.exports = {
     screens: {
       mobile: '375px',
       desktop: '1440px',
-      // desktop: '1280px',
     },
     fontFamily: {
       overpass: ['Overpass'],
