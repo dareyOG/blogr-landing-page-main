@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/dareyOG/blogr-landing-page-main
-- Live Site URL: https://your-live-site-url.com
+- Live Site URL: https://blogr-landing-page-main-jade.vercel.app/
 
 ## My process
 
