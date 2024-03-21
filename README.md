@@ -16,7 +16,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ## Overview
 
-A modern publishung platform
+A modern publishing platform
 
 ### The challenge
 
